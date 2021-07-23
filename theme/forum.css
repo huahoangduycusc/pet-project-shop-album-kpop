@@ -1,0 +1,604 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #d0d0d0;
+    font-family: Arial;
+    font-size: 14px;
+    color: #555555;
+}
+.container{
+    max-width: 900px;
+    padding-top: 10px;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+a{
+    text-decoration: none;
+    color: #337ab7;
+}
+a:hover{
+    color: #164a77;
+}
+.alert{
+    font-weight: 700;
+}
+.alert_link{
+    color: #337ab7;
+}
+.alert_link:hover{
+    color: #144d80;
+}
+.text-center{
+    text-align: center;
+}
+.nav{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.nav li{
+    float: left;
+    display: block;
+}
+.nav > li > a{
+    color: #6548be;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+.nav > li.active a, .nav li.active a:hover{
+    background: #6548be;
+    color: #fff;
+}
+.nav > li > a:hover{
+    background: #e7e7e7;
+}
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 8px 12px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.btn-danger{
+    color: #fff;
+    background-color: #AC39DC;
+    border-color: #AC39DC;
+    padding: 5px 10px;
+    border-radius: 3px;
+    line-height: 1.5;
+    font-size: 12px;
+}
+.btn-default{
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn-default:hover{
+    background-color: #9fc338;
+}
+.btn-danger:hover{
+    background-color: #331e75;
+}
+a.btn-danger:hover{
+    color: #ffffff;
+}
+.btn-xs{
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.btn-success{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+a.btn-success:hover{
+    color: #fff;
+    background-color: #489948;
+    border-color: #3f883f;
+}
+.btn-info{
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+}
+.btn-info:hover{
+    background-color: #2498bb;
+    border-color: #1c6d86;
+}
+.box_welcome{
+    padding-bottom: 10px;
+    width: 100%;
+    float: left;
+}
+.box_home{
+    color: #fff;
+    background-image: url('menu.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: #6548be;
+    border-color: #6548be;
+    padding: 8px 15px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.box_home a{
+    color: #fff;
+}
+.box_top{
+    padding-bottom: 5px;
+}
+.box_new_comment{
+    width: 100%;
+    padding: 10px;
+}
+textarea.textarea{
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 7px;
+    padding: 5px 7px;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+}
+.alert2{
+    padding: 5px;
+    margin: 5px 0 5px 0;
+    border-radius: 4px;
+}
+.alert-warning{
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+.alert-success{
+    color: #3b8a62;
+    background-color: #c6ffd9;
+    border-color: #c6ffd9;
+}
+.alert-danger{
+    color: #8a3b3b;
+    background-color: #ffc6c6;
+    border-color: #ffc6c6;
+}
+/* ====================== CSS FORUM ==================== */
+.box_list_chuyenmuc{
+    line-height: 20px;
+}
+.box_topic{
+    padding: 5px;
+    margin: 5px 0px 5px 0;
+    color: #000;
+    background: none;
+    border: 1px solid;
+    border-color: #D1D1D2;
+    border-radius: 4px;
+}
+.table{
+    margin-bottom: 0;
+    background-color: transparent;
+}
+img{
+    vertical-align: middle;
+}
+.table-bordered{
+    width: 100%;
+    border: 1px solid #dddddd;
+    max-width: 100%;
+}
+.table-bordered tr:hover{
+    background-color: #f5f5f5;
+}
+.table-bordered td{
+    padding: 8px;
+    vertical-align: top;
+    line-height: 1.4;
+    border-top: 1px solid #dddddd;
+}
+.table-bordered tr:first-child td{
+    border-top: none;
+}
+.table2 td{
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.table-bordered2 td{
+    padding: 8px;
+    vertical-align: top;
+    line-height: 1.4;
+    border: 1px solid #dddddd;
+}
+.table-bordered2 td:first-child{
+    border-right: none;
+}
+.table-bordered2 td{
+    border-top: none;
+}
+.table-bordered2 tr:first-child td{
+    border-top: 1px solid #dddddd;
+}
+img.avatar{
+    border-radius: 50px;
+    cursor: pointer;
+    object-fit: cover;
+}
+td.box_list_b{
+    vertical-align: top;
+}
+.box_avatar{
+    padding: 10px 0;
+}
+.box_comment{
+    float: left;
+    width: 100%;
+    color: #000000;
+    font-size: 12px;
+}
+.ndung_bviet{
+    float: left;
+    width: 100%;
+}
+.ndung_bviet img{
+    max-width: 99%;
+}
+.box_time_bviet{
+    float: left;
+    width: 100%;
+    font-size: 10px;
+    color:#676767;
+    bottom: -3px;
+    font-style: italic;
+    padding-top: 5px;
+}
+.ndung_bviet .quote{
+    padding: 5px;
+    margin: 5px 0 5px 0;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #31708f;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.ndung_bviet .user{
+    font-style: italic;
+}
+.ndung_bviet .user a{
+    color: #337ab7;
+}
+.ndung_bviet .user a:hover{
+    color: #1c578b;
+    text-decoration: underline;
+}
+td.box_list_d{
+    padding-left: 5px;
+}
+.group_btn{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    display: inline-block;
+    font-style: 12px;
+}
+.group_btn .btn-default{
+    font-size: 13px;
+    margin: -2px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    border-right: none;
+    padding: 7px 10px;
+}
+.group_btn .btn-default:last-child{
+    border-right: 1px solid #cccccc;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.group_btn .btn-default:first-child{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+a.btn-default{
+    color: #333;
+}
+.box_input{
+    width: 100%;
+    float: left;
+    padding: 5px;
+}
+.box_input input[type="text"]{
+    width: 100%;
+    height: 30px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.box_input textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.input textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 7px;
+}
+input[type="file"]{
+    display: block;
+}
+.file-group{
+    margin-bottom: 15px;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-style: 14px;
+    line-height: 1.44;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+textarea.form-control{
+    width: 100%;
+    float: left;
+    height: auto;
+}
+.alert-default{
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+.time_bviet{
+    float: left;
+    width: 100%;
+    font-size: 10px;
+    color: #676767;
+    bottom: -3px;
+}
+.box_input input[type="radio"]
+{
+    padding: 10px;
+    width: 20px;
+    line-height: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.list1{
+    padding: 20px 10px;
+    border: 1px solid #dddddd;
+    background-color: #fff;
+    width: 100%;
+    margin: 3px 0px;;
+}
+.list1:hover{
+    background-color: rgb(240, 240, 240);
+}
+.list2{
+    padding: 20px 10px;
+    margin: 3px 0px;
+    border: 1px solid #dddddd;
+    background-color: rgb(187, 222, 255);
+    width: 100%;
+}
+.list2:hover{
+    background-color: rgb(163, 204, 241);
+}
+.red{
+    color: rgb(255, 52, 69);
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.input_box{
+    padding-bottom: 10px;
+}
+input.input_small{
+    width: 60px;
+    height: 34px;
+    padding: 6px 12px;
+    font-style: 14px;
+    line-height: 1.44;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.input_grup{
+    padding-left: 8px;
+}
+/* ===================== giao dien tim kiem bai viet =============== */
+.panel{
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-default{
+    border-color: #dddddd;
+}
+.panel-default > .panel-heading{
+    color: #333333;
+    background-color: #f5f5f5;
+    border-color: #dddddd;
+}
+.panel-heading{
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-body{
+    padding: 15px;
+}
+.duy-padding{
+    padding-top: 5px;
+    padding-left: 4px;
+}
+
+/* ============================ index forum css =============================== */
+span.label{
+    display: inline-block;
+    padding: 3px 5px;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 2px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 2px;
+    text-align: center;
+}
+.box_chuyenmuc{
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    width: 100%;
+    float: left;
+}
+.box_chuyenmuc_name a{
+    font-weight: 700;
+    color: #337ab7;
+}
+.box_chuyenmuc_name a:hover{
+    color: #1c5383;
+}
+.box_chuyemuc_mota{
+    width: 100%;
+    padding-left: 4px;
+    padding-bottom: 4px;
+}
+.box_chuyenmuc_topic{
+    width: 100%;
+    padding-left: 6px;
+}
+.box_topic_name a{
+    color: #337ab7;
+}
+.box_topic_name a:hover{
+    color: #1b5588;
+    text-decoration: underline;
+}
+.box_topic_name i{
+    color: #256094;
+    line-height: 20px;
+}
+/* ========================== css mau nick cho member ====================== */
+.box_chucvu_mem{
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    color: #013481;
+    font-size: 8pt;
+}
+.box_chucvu_mem a{
+    color: #013481;
+}
+.box_chucvu_mem a:hover{
+    text-decoration: underline;
+}
+.box_chucvu_admin{
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    color: #FF4444;
+    font-size: 8pt;
+}
+.box_chucvu_admin a{
+    color: #FF4444;
+}
+.box_chucvu_admin a:hover{
+    text-decoration: underline;
+}
+/* ========================= footer css =================*/
+.clear{
+    clear: both;
+}
+.footer{
+    padding: 40px 0;
+    max-width: 900px;
+    color: #999;
+    background-color: #E9E9E9;
+    border-top: 1px solid #e5e5e5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+/*================ PAGINATION =============== */
+.pagination{
+    margin: 10px 0px 5px 0px;
+    padding-left: 0px;
+    border-radius: 4px;
+}
+.box_phantrang .pagination{
+    margin: 2px 0px 2px 3px;
+}
+ul.pagination{
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+}
+ul.pagination > li{
+    display: inline;
+}
+ul.pagination > li > a{
+    padding: 3px 10px;
+}
+ul.pagination > li > a{
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #dddddd;
+    margin-left: -1px;
+    line-height: 1.42857143;
+}
+.pagination li:last-child>a{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.pagination li:first-child>a{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.pagination > .active > a, .pagination > .active > a:hover{
+    color: #fff;
+    cursor: default;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.pagination > li > a:hover{
+    background-color: #e9e9e9;
+}

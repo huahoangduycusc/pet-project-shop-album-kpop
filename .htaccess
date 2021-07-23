@@ -1,0 +1,14 @@
+Options +FollowSymlinks
+Options All -Indexes
+RewriteEngine on
+ErrorDocument 404 /shop389/404.html
+ErrorDocument 403 /shop389/404.html
+
+RewriteRule ^product/([a-zA-Z0-9_-]+)/([0-9]+)$ product/index.php?id=$2 [L]
+<Files .htaccess>
+
+Order Allow,Deny
+
+Deny from all
+
+</Files>
