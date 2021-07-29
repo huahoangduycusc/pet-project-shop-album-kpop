@@ -14,7 +14,7 @@
 			<span style="vertical-align: middle;">Diễn đàn KPOP, khu vui chởi giải trí cho các bạn trẻ. Hãy tham gia và chia sẻ tình yêu của bạn
 			</span>
 		</div>
-        <img style="max-width:900px;width:100%" width="100%" src="https://i.imgur.com/iGE07WE.png">
+        <img style="max-width:900px;width:100%" width="100%" src="<?php echo $homeurl;?>/images/background/3.jpg">
     </div>
     <div class="container">
         <div class="text-center">

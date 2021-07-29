@@ -95,19 +95,12 @@ require_once('incfiles/head.php');
 <div class="slideshow-container">
     <div class="mySlides fade">
         <img src="images/background/3.jpg" style="width:100%">
-        <div class="text">BLACKPINK</div>
     </div>
     <div class="mySlides fade">
           <img src="images/background/2.jpg" style="width:100%">
-          <div class="text">BTS</div>
     </div>    
     <div class="mySlides fade">
         <img src="images/background/1.jpg" style="width:100%">
-        <div class="text">T-ARA</div>
-    </div>
-    <div class="mySlides fade">
-        <img src="images/background/4.jpg" style="width:100%">
-        <div class="text">REV VELVET</div>
     </div>
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -116,7 +109,6 @@ require_once('incfiles/head.php');
           <span class="dot" onclick="currentSlide(1)"></span> 
           <span class="dot" onclick="currentSlide(2)"></span> 
           <span class="dot" onclick="currentSlide(3)"></span> 
-          <span class="dot" onclick="currentSlide(4)"></span>
         </div>
 <div class="forum">
   <a href="<?php echo $homeurl;?>/forum" target="_blank" class="forum_alert"><i class="far fa-heart tim"></i> Tham Gia Diễn Đàn Ngay <i class="far fa-heart tim"></i></a>
